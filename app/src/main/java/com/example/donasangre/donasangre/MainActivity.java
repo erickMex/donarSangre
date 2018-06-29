@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText txtUser = (EditText) findViewById(R.id.txtUser);
         final EditText txtPass = (EditText) findViewById(R.id.txtPass);
         Button btnRegister = (Button) findViewById(R.id.btnRegister);
+
         btnRegister.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
