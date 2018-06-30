@@ -18,6 +18,7 @@ public class userView extends AppCompatActivity {
         Button btnConfig =(Button) findViewById(R.id.btnConfig);
         Button btnCalendar =(Button) findViewById(R.id.btnCalendar);
         Button btnDonation =(Button) findViewById(R.id.btnDonations);
+        Button btnAddDonation =(Button) findViewById(R.id.btnAddDonation);
 
         btnMaps.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -30,62 +30,62 @@
             android:layout_height="21dp" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Nombre"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
+            android:ems="10"
+            android:hint="Nombre"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editText10"
+            android:id="@+id/txtPass1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:ems="10"
             android:hint="Contraseña"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editText11"
+            android:id="@+id/txtPass2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:ems="10"
             android:hint="Repetir contraseña"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editText8"
+            android:id="@+id/txtPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Teléfono"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
+            android:ems="10"
+            android:hint="Teléfono"
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/editText9"
+            android:id="@+id/txtMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Correo"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
+            android:ems="10"
+            android:hint="Correo"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/txtBirthday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
+            android:ems="10"
             android:hint="Fecha nacimiento"
             android:inputType="date" />
 
@@ -96,7 +96,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnRegist"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

@@ -23,7 +23,8 @@
         <activity android:name=".donations" />
         <activity android:name=".information" />
         <activity android:name=".configuration" />
-        <activity android:name=".calendar"></activity>
+        <activity android:name=".calendar" />
+        <activity android:name=".addDonation"></activity>
     </application>
 
 </manifest>
