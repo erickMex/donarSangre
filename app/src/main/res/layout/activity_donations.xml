@@ -6,65 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".donations">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/texture">
+        android:gravity="center"
+        android:orientation="horizontal">
 
-        <TableLayout
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="99dp"
+            android:layout_height="185dp"
+            android:layout_weight="1"
+            android:background="@drawable/porcentaje"
+            app:srcCompat="@android:color/transparent" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-            <TableRow
+            <TextView
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mis Donaciones" />
 
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="152dp"
-                    android:layout_height="wrap_content"
-                    android:text="Mis donaciones" />
-            </TableRow>
-
-            <TableRow
+            <Space
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="40px" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sangre" />
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="185dp"
-                    android:background="@drawable/porcentaje"
-                    app:srcCompat="@android:color/transparent" />
-            </TableRow>
-
-            <TableRow
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sangre " />
 
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Plaquetas" />
+        </LinearLayout>
+    </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="203dp"
-                    android:background="@drawable/porcentaje"
-                    app:srcCompat="@android:color/transparent" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </TableLayout>
-    </FrameLayout>
 </android.support.constraint.ConstraintLayout>
